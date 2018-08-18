@@ -45,3 +45,7 @@ body {
       width: 80%; 
       height: 500px;
   }
+
+  .instagram-container {
+      border: solid black 5px;
+  }
