@@ -1,0 +1,39 @@
+body { 
+    background: url(./images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .navbar-brand, .nav-link {
+      color: #fff;
+      font-family: "Share Tech", sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+  }
+
+  .navbar-brand {
+      font-size: 50px
+  }
+
+  .nav-link {
+      font-size: 30px;
+  }
+
+  .navbar-brand:hover, .nav-link:hover {
+      color: #5f5f5f;
+  }
+
+  .jumbotron {
+      background: transparent;
+  }
+
+  .jumbotron img {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+  }
